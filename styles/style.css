@@ -49,10 +49,10 @@ a {
 
 .content {
   display: flex;
-  align-items: flex-start;
+  align-items: flex-end;
   gap: 30px;
   height: 45%;
-  margin: 133px 5px 133px 5px;
+  margin-top:30%;
 }
 
 .result {
