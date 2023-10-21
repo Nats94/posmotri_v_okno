@@ -52,7 +52,7 @@ a {
   align-items: flex-start;
   gap: 30px;
   height: 45%;
-  margin-top: 16%;
+  margin-top: 30%;
 }
 
 .result {
@@ -109,7 +109,6 @@ input.search-form__textfield {
   font-style: normal;
   font-weight: 700;
   line-height: 94%;
-  /* 70.5px */
   text-transform: uppercase;
 }
 
@@ -233,7 +232,7 @@ input.search-form__textfield {
 
 .content__list {
   margin: 35px 0 0 0;
-  max-height: 321px;
+  max-height: 325px;
 }
 
 .content__list-item:not(:last-child) {
