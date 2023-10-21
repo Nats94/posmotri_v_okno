@@ -51,8 +51,9 @@ a {
   display: flex;
   align-items: flex-end;
   gap: 30px;
-  height: 45%;
-  margin-top:30%;
+   /* height: 30%;  */
+   max-height: 534px;
+  margin-top:15%;
 }
 
 .result {
