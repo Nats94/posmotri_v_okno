@@ -52,7 +52,7 @@ a {
   align-items: flex-start;
   gap: 30px;
   height: 45%;
-  margin-top: 30%;
+  margin-top: 10%;
 }
 
 .result {
@@ -160,8 +160,6 @@ input.search-form__textfield {
 
 }
 
-
-
 .search-form__submit-button {
   width: 33%;
   height: 34px;
@@ -199,14 +197,11 @@ input.search-form__textfield {
 
 .search-form__label:hover {
   text-decoration: underline;
-
 }
-
 
 .search-form__checkbox:checked+.search-form__pseudo-checkbox::after {
   transform: scale(1);
 }
-
 
 .content__accent {
   color: #545050;
@@ -232,7 +227,7 @@ input.search-form__textfield {
 
 .content__list {
   margin: 35px 0 0 0;
-  max-height: 325px;
+  max-height: 340px;
 }
 
 .content__list-item:not(:last-child) {
