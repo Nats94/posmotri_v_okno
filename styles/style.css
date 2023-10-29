@@ -14,7 +14,6 @@ html {
   margin: auto;
   color: #fff;
   font-family: "Fira Sans Condensed", Arial, sans-serif;
-  ;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -69,7 +68,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 16px;
+  gap: 16px; 
 }
 
 .search-form {
@@ -98,11 +97,11 @@ input.search-form__textfield {
   color: #fff;
   background: transparent;
   line-height: 22px;
-  width: 100%;
+  width: 211px;
   border-top: 1px solid #FFF;
   border-bottom: 1px solid #FFF;
   margin-top: 5px;
-  font-family: "Fira Sans Condensed" "Arial" sans-serif;
+  font-family: "Fira Sans Condensed", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -132,7 +131,7 @@ input.search-form__textfield {
 
 .title .content__details {
   color: #545050;
-  font-family: Oswald;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
@@ -142,7 +141,7 @@ input.search-form__textfield {
 
 .title {
   color: #FFF;
-  font-family: Oswald;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 75px;
   font-style: normal;
   font-weight: 700;
@@ -152,6 +151,8 @@ input.search-form__textfield {
 
 .result__video-container {
   position: relative;
+  object-fit: cover;
+  object-position: center;
   width: 711px;
   height: 386px;
 }
@@ -167,7 +168,6 @@ input.search-form__textfield {
 
 .search-form__fieldset h2 {
   font-family: "Fira Sans Condensed", Arial, sans-serif;
-  ;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -202,6 +202,11 @@ input.search-form__textfield {
 
 .search-form__label:active {
   outline: none;
+}
+
+.search-form__checkbox-list .search-form__label:hover{
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 
@@ -252,7 +257,8 @@ input.search-form__textfield {
   position: relative;
   overflow: auto;
   margin: 26px 0 0 0;
-  max-height: 290px;
+  height: 290px;
+  width: 399px;
 }
 
 .content__list-item:not(:last-child) {
@@ -268,22 +274,29 @@ input.search-form__textfield {
   display: flex;
 }
 
-.content__video-card:focus {
+.content__card-link:focus {
   outline: none;
 }
 
-.content__video-card:focus-visible {
-  outline: solid 1px #fff;
+.content__card-link:focus-visible {
+  outline: 1px solid #fff;
 }
 
 .content__video-card-description-container:hover {
   text-decoration: underline;
 }
 
+.content__card-link {
+  text-decoration: none;
+  color: #FFFFFF;
+  display: block;
+  margin: 2px;
+}
+
 .content__video-card-description-container {
   color: #FFF;
   width: 50%;
-  padding: 10px;
+  padding: 0;
 }
 
 .content__video-card-thumbnail {
@@ -295,7 +308,7 @@ input.search-form__textfield {
 
 .content__video-card-title {
   color: #FFF;
-  font-family: Oswald;
+  font-family: "Oswald", "Arial", sans-serif;
   font-size: 1.5em;
   font-style: normal;
   font-weight: 700;
